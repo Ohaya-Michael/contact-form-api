@@ -1,5 +1,5 @@
-my-pf-venv/
 __pycache__/
 *.pyc
 *.pyd
 .env
+my-pf-venv/
