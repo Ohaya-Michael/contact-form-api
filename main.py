@@ -19,7 +19,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000", 
         "http://localhost:5173", 
-        "https://michael-ohaya-my-portfolio.netlify.app/"
+        "https://michael-ohaya-my-portfolio.netlify.app"
         ],  # React dev servers
     allow_credentials=True,
     allow_methods=["*"],
