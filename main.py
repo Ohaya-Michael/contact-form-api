@@ -16,7 +16,11 @@ app = FastAPI(title="Contact Form API")
 # Update allow_origins to match your frontend URL in production
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:5173"],  # React dev servers
+    allow_origins=[
+        "http://localhost:3000", 
+        "http://localhost:5173", 
+        "https://michael-ohaya-my-portfolio.netlify.app/"
+        ],  # React dev servers
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
